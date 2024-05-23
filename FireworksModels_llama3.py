@@ -8,8 +8,8 @@ import os
 from langchain_fireworks import Fireworks 
 #load_dotenv()
 os.environ["LANGCHAIN_TRACING_V2"]="true"
-os.environ["FIREWORKS_API_KEY"] = "3pJjPGWVwLfUY4UFS3dMMRtGWRifofZWERtyduEtLP2v36fw"
-os.environ["LANGCHAIN_API_KEY"]="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"
+os.environ["FIREWORKS_API_KEY"] = ""
+os.environ["LANGCHAIN_API_KEY"]=""
 ## Prompt Template
 prompt=ChatPromptTemplate.from_messages(
     [
